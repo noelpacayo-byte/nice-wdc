@@ -23,7 +23,7 @@
         var password = tableau.password;
         var apiKey = tableau.connectionData; // API key stored here
 
-        var apiUri = "https://api-na1.niceincontact.com/v1/data-extract"; 
+        var apiUri = "https://cors-anywhere.herokuapp.com/https://api-na1.niceincontact.com/v1/data-extract"; 
 
         $.ajax({
             url: apiUri,
